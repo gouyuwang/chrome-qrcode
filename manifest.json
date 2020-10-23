@@ -1,0 +1,35 @@
+{
+    "name":"Qrcode",
+    "description":"Url Qrcode Extension",
+    "version":"1.0",
+    "manifest_version":2,
+	"description":"当前页面的二维码",
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"icon.png",
+		"default_title":"生成页面二维码"
+    },
+	"icons":{
+		"16":"icon.png",
+		"48":"icon.png",
+		"128":"icon.png"
+    },
+    "commands":{
+        "_execute_browser_action":{
+            "suggested_key":{
+                "default":"Ctrl+Shift+F",
+                "mac":"MacCtrl+Shift+F"
+            },
+            "description":"Opens popup.html"
+        }
+    },
+	"permissions": [
+        "background", 
+        "tabs"
+    ], 
+    "background":{
+        "script":[
+             "js/background.js"
+         ]
+    }
+}

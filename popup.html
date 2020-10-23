@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>生成页面二维码</title>
+    <link rel="stylesheet" type="text/css" href="http://www.layuicdn.com/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="js/share/css/share.min.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css"/>
+</head>
+<body style="margin:0;">
+
+<div id="app">
+    <div id="tips" style="position: relative">扫描二维码，分享网页到微信 <span class="layui-badge" style="position: absolute;right: 10px;" title="自定义分享内容" id="btnSwitch"><i class="layui-icon layui-icon-tree"></i></span></div>
+	<div style="display: none;" id="custom-content">
+        <label for="btnInput"></label><input class="layui-input" type="text" name="content" placeholder="输入二维码生成内容" id="btnInput"/>
+	</div>
+	<div id="qrCode" style="width: 200px;height: 200px;"></div>
+    <div style="background:#f6f6f6;" id="action">
+        <p style="color:#666;">分享当前网页到:</p>
+        <div class="social-share-cs" style="padding:0"></div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.qrcode.min.js"></script>
+<script src="js/share/js/jquery.share.min.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/share.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#app {
+  margin:0;
+  padding:0;
+  background-color:#fff;
+}  
+
+#app div{
+   padding:10px 30px;
+} 
+
+ul li{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right:15px;
+	border-radius: 2px;
+	line-height: 22px;
+}
+
+ul li span{
+   line-height:20px;
+}
+
+ul li i{
+   font-size: 22px; 
+   color: #1E9FFF;
+} 
