@@ -1,4 +1,4 @@
-# chrome-qrcode
+# Chrome-Qrcode
 Chrome Plugin: Generating Web QrCode
 
-![](demo.png)
+![DEMO](demo.png)
