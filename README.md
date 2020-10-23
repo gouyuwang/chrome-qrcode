@@ -1,4 +1,4 @@
 # Chrome-Qrcode
 Chrome Plugin: Generating Web QrCode
 
-![DEMO](http://github.com/gouyuwang/chrome-qrcode/raw/master/demo.png)
+![DEMO](https://raw.githubusercontent.com/gouyuwang/chrome-qrcode/master/demo.png)
