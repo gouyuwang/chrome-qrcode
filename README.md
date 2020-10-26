@@ -1,7 +1,7 @@
 # Chrome-Qrcode
 Chrome Plugin: Generating Web QrCode
 
-![DEMO](https://raw.githubusercontent.com/gouyuwang/chrome-qrcode/master/demo.png)
+![DEMO](https://github.com/gouyuwang/chrome-qrcode/blob/master/demo.png?raw=true)
 
 一款Chrome小插件用来生成当前网页二维码
 
