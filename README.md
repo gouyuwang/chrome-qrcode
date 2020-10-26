@@ -15,6 +15,6 @@ Chrome Plugin: Generating Web QrCode
 
 ## 小贴士
 
-使用时可以使用 **Ctrl + Shift + F** 快捷键弹出。
+可以使用 **Ctrl + Shift + F** 快捷键弹出。
 
 > 请勿商业演绎
